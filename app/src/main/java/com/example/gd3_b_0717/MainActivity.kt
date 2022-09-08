@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             // Ganti Password dengan NPM kalian
             if (username ==
                 "admin" && password ==
-                "0765"
+                "0717"
             ) checkLoqin = true
             if (!checkLoqin) return@OnClickListener
             val moveHome = Intent(this@MainActivity, HomeActivity::class.java)
